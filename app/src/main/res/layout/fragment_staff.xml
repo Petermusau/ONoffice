@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Staff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_marginTop="56dp"
+        android:id="@+id/ceoo"
+        android:layout_width="150dp"
+        android:layout_height="77dp"
+        android:src="@drawable/ceo" />
+    <ImageView
+        android:layout_marginTop="56dp"
+        android:layout_width="150dp"
+        android:layout_height="77dp"
+        android:paddingRight="-58dp"
+        android:id="@+id/hrm"
+        android:src="@drawable/hr"
+        android:layout_toRightOf="@+id/ceoo"/>
+
+    <ImageView
+        android:id="@+id/sale"
+        android:layout_marginTop="43dp"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:src="@drawable/directer"
+        android:layout_below="@id/ceoo"/>
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_marginTop="43dp"
+        android:layout_height="80dp"
+        android:id="@+id/sm"
+        android:paddingRight="-58dp"
+        android:src="@drawable/salesman"
+        android:layout_toRightOf="@+id/sale"
+        android:layout_below="@+id/hrm"/>
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="456dp"
+        android:layout_height="80dp"
+        android:id="@+id/secret"
+        android:src="@drawable/secrery"
+        android:layout_below="@+id/sm"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
